@@ -28,8 +28,15 @@ To maintain a dictionary of students with their marks in five subjects, calculat
 ---
 
 ## 💻 PROGRAM:
-ADD CODE HERE
+```
+m1,m2,m3=int(input()),int(input()),int(input())
+total=m1+m2+m3;
+percentage=(total/300)*100
+print("Total marks obtained is {} and the percentage obtained is {}".format(total,percentage))
+```
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/a0adc93e-1cd6-4f7b-b34b-7cc40a6e4f98)
 
 ## RESULT
+Program is verified.
